@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_display.name" for="node" attr.name="display.name" attr.type="string"/>
+  <key id="v_gene.type" for="node" attr.name="gene.type" attr.type="string"/>
+  <key id="v_expressed.in" for="node" attr.name="expressed.in" attr.type="string"/>
+  <key id="e_ligand.name" for="edge" attr.name="ligand.name" attr.type="string"/>
+  <key id="e_receptor.name" for="edge" attr.name="receptor.name" attr.type="string"/>
+  <key id="e_origin" for="edge" attr.name="origin" attr.type="string"/>
+  <key id="e_destination" for="edge" attr.name="destination" attr.type="string"/>
+  <key id="e_interaction.type" for="edge" attr.name="interaction.type" attr.type="string"/>
+  <key id="e_LRscore" for="edge" attr.name="LRscore" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">astrocytes.ARF1</data>
+      <data key="v_display.name">astrocytes.ARF1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">astrocytes.RTN4</data>
+      <data key="v_display.name">astrocytes.RTN4</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">astrocytes.CALM2</data>
+      <data key="v_display.name">astrocytes.CALM2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">astrocytes.OMG</data>
+      <data key="v_display.name">astrocytes.OMG</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">astrocytes.CALM1</data>
+      <data key="v_display.name">astrocytes.CALM1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">astrocytes.HHLA3</data>
+      <data key="v_display.name">astrocytes.HHLA3</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">astrocytes.AGT</data>
+      <data key="v_display.name">astrocytes.AGT</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">astrocytes.B2M</data>
+      <data key="v_display.name">astrocytes.B2M</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">astrocytes</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">glioblastoma.CHRM3</data>
+      <data key="v_display.name">glioblastoma.CHRM3</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">glioblastoma.NGFR</data>
+      <data key="v_display.name">glioblastoma.NGFR</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">glioblastoma.PDE1A</data>
+      <data key="v_display.name">glioblastoma.PDE1A</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">glioblastoma.GRM5</data>
+      <data key="v_display.name">glioblastoma.GRM5</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">glioblastoma.GRM7</data>
+      <data key="v_display.name">glioblastoma.GRM7</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">glioblastoma.LILRB1</data>
+      <data key="v_display.name">glioblastoma.LILRB1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <edge source="n0" target="n8">
+      <data key="e_ligand.name">ARF1</data>
+      <data key="e_receptor.name">CHRM3</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.647714481358718</data>
+    </edge>
+    <edge source="n1" target="n9">
+      <data key="e_ligand.name">RTN4</data>
+      <data key="e_receptor.name">NGFR</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.63363655211688</data>
+    </edge>
+    <edge source="n2" target="n10">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">PDE1A</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.57655690450849</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_ligand.name">OMG</data>
+      <data key="e_receptor.name">NGFR</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.569521101039778</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">GRM5</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.555197225316877</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_ligand.name">CALM1</data>
+      <data key="e_receptor.name">PDE1A</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.537058326833162</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_ligand.name">HHLA3</data>
+      <data key="e_receptor.name">CHRM3</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.534258141250858</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">GRM7</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.525890608683759</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_ligand.name">CALM1</data>
+      <data key="e_receptor.name">GRM5</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.515380935912758</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_ligand.name">AGT</data>
+      <data key="e_receptor.name">GRM7</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.503979215028678</data>
+    </edge>
+    <edge source="n7" target="n13">
+      <data key="e_ligand.name">B2M</data>
+      <data key="e_receptor.name">LILRB1</data>
+      <data key="e_origin">astrocytes</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.501976426162716</data>
+    </edge>
+  </graph>
+</graphml>

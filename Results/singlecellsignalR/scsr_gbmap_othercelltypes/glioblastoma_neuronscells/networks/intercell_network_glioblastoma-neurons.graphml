@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_display.name" for="node" attr.name="display.name" attr.type="string"/>
+  <key id="v_gene.type" for="node" attr.name="gene.type" attr.type="string"/>
+  <key id="v_expressed.in" for="node" attr.name="expressed.in" attr.type="string"/>
+  <key id="e_ligand.name" for="edge" attr.name="ligand.name" attr.type="string"/>
+  <key id="e_receptor.name" for="edge" attr.name="receptor.name" attr.type="string"/>
+  <key id="e_origin" for="edge" attr.name="origin" attr.type="string"/>
+  <key id="e_destination" for="edge" attr.name="destination" attr.type="string"/>
+  <key id="e_interaction.type" for="edge" attr.name="interaction.type" attr.type="string"/>
+  <key id="e_LRscore" for="edge" attr.name="LRscore" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">glioblastoma.CALM1</data>
+      <data key="v_display.name">glioblastoma.CALM1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">glioblastoma.LIN7C</data>
+      <data key="v_display.name">glioblastoma.LIN7C</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">glioblastoma.GAD1</data>
+      <data key="v_display.name">glioblastoma.GAD1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">neurons.HTR2C</data>
+      <data key="v_display.name">neurons.HTR2C</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">neurons</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">neurons.GRM4</data>
+      <data key="v_display.name">neurons.GRM4</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">neurons</data>
+    </node>
+    <edge source="n0" target="n3">
+      <data key="e_ligand.name">CALM1</data>
+      <data key="e_receptor.name">HTR2C</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">neurons</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.890401245774405</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_ligand.name">CALM1</data>
+      <data key="e_receptor.name">GRM4</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">neurons</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.845736575764543</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_ligand.name">LIN7C</data>
+      <data key="e_receptor.name">HTR2C</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">neurons</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.685440835250079</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_ligand.name">GAD1</data>
+      <data key="e_receptor.name">GRM4</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">neurons</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.569146977699995</data>
+    </edge>
+  </graph>
+</graphml>

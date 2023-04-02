@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_display.name" for="node" attr.name="display.name" attr.type="string"/>
+  <key id="v_gene.type" for="node" attr.name="gene.type" attr.type="string"/>
+  <key id="v_expressed.in" for="node" attr.name="expressed.in" attr.type="string"/>
+  <key id="e_ligand.name" for="edge" attr.name="ligand.name" attr.type="string"/>
+  <key id="e_receptor.name" for="edge" attr.name="receptor.name" attr.type="string"/>
+  <key id="e_origin" for="edge" attr.name="origin" attr.type="string"/>
+  <key id="e_destination" for="edge" attr.name="destination" attr.type="string"/>
+  <key id="e_interaction.type" for="edge" attr.name="interaction.type" attr.type="string"/>
+  <key id="e_LRscore" for="edge" attr.name="LRscore" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">glioblastoma.EFEMP2</data>
+      <data key="v_display.name">glioblastoma.EFEMP2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">glioblastoma.GNAI2</data>
+      <data key="v_display.name">glioblastoma.GNAI2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">mast cells.CATSPER1</data>
+      <data key="v_display.name">mast cells.CATSPER1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">mast cells</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">mast cells.S1PR4</data>
+      <data key="v_display.name">mast cells.S1PR4</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">mast cells</data>
+    </node>
+    <edge source="n0" target="n2">
+      <data key="e_ligand.name">EFEMP2</data>
+      <data key="e_receptor.name">CATSPER1</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">mast cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.687378270501269</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_ligand.name">GNAI2</data>
+      <data key="e_receptor.name">S1PR4</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">mast cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.584308724754488</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,5 @@
+glioblastoma	neurons	interaction.type	LRscore
+CALM1	HTR2C	paracrine	0.890401245774405
+CALM1	GRM4	paracrine	0.845736575764543
+LIN7C	HTR2C	paracrine	0.685440835250079
+GAD1	GRM4	paracrine	0.569146977699995

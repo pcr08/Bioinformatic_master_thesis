@@ -1,0 +1,3 @@
+glioblastoma	mast.cells	interaction.type	LRscore
+EFEMP2	CATSPER1	paracrine	0.687378270501269
+GNAI2	S1PR4	paracrine	0.584308724754488

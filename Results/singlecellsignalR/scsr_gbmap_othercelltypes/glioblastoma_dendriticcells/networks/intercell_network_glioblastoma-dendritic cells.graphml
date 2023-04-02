@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_display.name" for="node" attr.name="display.name" attr.type="string"/>
+  <key id="v_gene.type" for="node" attr.name="gene.type" attr.type="string"/>
+  <key id="v_expressed.in" for="node" attr.name="expressed.in" attr.type="string"/>
+  <key id="e_ligand.name" for="edge" attr.name="ligand.name" attr.type="string"/>
+  <key id="e_receptor.name" for="edge" attr.name="receptor.name" attr.type="string"/>
+  <key id="e_origin" for="edge" attr.name="origin" attr.type="string"/>
+  <key id="e_destination" for="edge" attr.name="destination" attr.type="string"/>
+  <key id="e_interaction.type" for="edge" attr.name="interaction.type" attr.type="string"/>
+  <key id="e_LRscore" for="edge" attr.name="LRscore" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">glioblastoma.B2M</data>
+      <data key="v_display.name">glioblastoma.B2M</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">glioblastoma.BST2</data>
+      <data key="v_display.name">glioblastoma.BST2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">glioblastoma.GNAI2</data>
+      <data key="v_display.name">glioblastoma.GNAI2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">glioblastoma.GNAS</data>
+      <data key="v_display.name">glioblastoma.GNAS</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">glioblastoma.CCL2</data>
+      <data key="v_display.name">glioblastoma.CCL2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">glioblastoma.APP</data>
+      <data key="v_display.name">glioblastoma.APP</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">glioblastoma.PSAP</data>
+      <data key="v_display.name">glioblastoma.PSAP</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">dendritic cells.CD1A</data>
+      <data key="v_display.name">dendritic cells.CD1A</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">dendritic cells.LILRA4</data>
+      <data key="v_display.name">dendritic cells.LILRA4</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">dendritic cells.S1PR4</data>
+      <data key="v_display.name">dendritic cells.S1PR4</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">dendritic cells.CD1B</data>
+      <data key="v_display.name">dendritic cells.CD1B</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">dendritic cells.CCR5</data>
+      <data key="v_display.name">dendritic cells.CCR5</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">dendritic cells.ADRB3</data>
+      <data key="v_display.name">dendritic cells.ADRB3</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">dendritic cells.CCR2</data>
+      <data key="v_display.name">dendritic cells.CCR2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">dendritic cells.FPR2</data>
+      <data key="v_display.name">dendritic cells.FPR2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">dendritic cells</data>
+    </node>
+    <edge source="n0" target="n7">
+      <data key="e_ligand.name">B2M</data>
+      <data key="e_receptor.name">CD1A</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.805006856104338</data>
+    </edge>
+    <edge source="n1" target="n8">
+      <data key="e_ligand.name">BST2</data>
+      <data key="e_receptor.name">LILRA4</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.75675948742419</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_ligand.name">GNAI2</data>
+      <data key="e_receptor.name">S1PR4</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.711090045649815</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_ligand.name">B2M</data>
+      <data key="e_receptor.name">CD1B</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.619505901373695</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_ligand.name">GNAI2</data>
+      <data key="e_receptor.name">CCR5</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.610133812055946</data>
+    </edge>
+    <edge source="n3" target="n12">
+      <data key="e_ligand.name">GNAS</data>
+      <data key="e_receptor.name">ADRB3</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.59374130671812</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_ligand.name">CCL2</data>
+      <data key="e_receptor.name">CCR2</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.56736420812834</data>
+    </edge>
+    <edge source="n5" target="n14">
+      <data key="e_ligand.name">APP</data>
+      <data key="e_receptor.name">FPR2</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.52953810796788</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_ligand.name">PSAP</data>
+      <data key="e_receptor.name">CD1B</data>
+      <data key="e_origin">glioblastoma</data>
+      <data key="e_destination">dendritic cells</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.507358435729739</data>
+    </edge>
+  </graph>
+</graphml>

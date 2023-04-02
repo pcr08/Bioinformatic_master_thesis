@@ -1,0 +1,3 @@
+glioblastoma	endothelial.cells	interaction.type	LRscore
+BSG	SELE	paracrine	0.562411036454734
+LPL	GPIHBP1	paracrine	0.501899822531266

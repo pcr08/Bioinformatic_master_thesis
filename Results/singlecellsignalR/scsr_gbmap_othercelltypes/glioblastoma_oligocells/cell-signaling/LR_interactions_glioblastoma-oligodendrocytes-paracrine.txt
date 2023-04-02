@@ -1,0 +1,2 @@
+glioblastoma	oligodendrocytes	interaction.type	LRscore
+LPL	GPIHBP1	paracrine	0.68087406454731

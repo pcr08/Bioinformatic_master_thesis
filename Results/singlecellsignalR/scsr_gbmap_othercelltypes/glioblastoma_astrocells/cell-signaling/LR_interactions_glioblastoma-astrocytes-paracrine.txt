@@ -1,0 +1,4 @@
+glioblastoma	astrocytes	interaction.type	LRscore
+APP	FPR2	paracrine	0.653892941712109
+GNAI2	LPAR3	paracrine	0.634207919507405
+ANXA1	FPR2	paracrine	0.579852899739359

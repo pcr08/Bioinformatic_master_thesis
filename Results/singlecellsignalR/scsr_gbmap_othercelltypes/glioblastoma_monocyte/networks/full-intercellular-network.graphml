@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_display.name" for="node" attr.name="display.name" attr.type="string"/>
+  <key id="v_gene.type" for="node" attr.name="gene.type" attr.type="string"/>
+  <key id="v_expressed.in" for="node" attr.name="expressed.in" attr.type="string"/>
+  <key id="e_interaction.type" for="edge" attr.name="interaction.type" attr.type="string"/>
+  <key id="e_LRscore" for="edge" attr.name="LRscore" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">glioblastoma.APP</data>
+      <data key="v_display.name">APP</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">glioblastoma.ANXA1</data>
+      <data key="v_display.name">ANXA1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">glioblastoma.GNAI2</data>
+      <data key="v_display.name">GNAI2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">glioblastoma.EFEMP2</data>
+      <data key="v_display.name">EFEMP2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">glioblastoma.CCL2</data>
+      <data key="v_display.name">CCL2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">glioblastoma.PTMA</data>
+      <data key="v_display.name">PTMA</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">glioblastoma.SAA1</data>
+      <data key="v_display.name">SAA1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">glioblastoma.CALM1</data>
+      <data key="v_display.name">CALM1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">glioblastoma.GNAS</data>
+      <data key="v_display.name">GNAS</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">glioblastoma.CCL4</data>
+      <data key="v_display.name">CCL4</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">monocytes.FPR2</data>
+      <data key="v_display.name">FPR2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">monocytes</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">monocytes.S1PR4</data>
+      <data key="v_display.name">S1PR4</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">monocytes</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">monocytes.CATSPER1</data>
+      <data key="v_display.name">CATSPER1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">monocytes</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">monocytes.CCR5</data>
+      <data key="v_display.name">CCR5</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">monocytes</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">monocytes.CCR2</data>
+      <data key="v_display.name">CCR2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">monocytes</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">monocytes.VIPR1</data>
+      <data key="v_display.name">VIPR1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">monocytes</data>
+    </node>
+    <edge source="n0" target="n10">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.798802017974991</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.743852562758768</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.683685994393868</data>
+    </edge>
+    <edge source="n3" target="n12">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.653900502562633</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.650496940682156</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.615801491900491</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.568862463360505</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.557204721080595</data>
+    </edge>
+    <edge source="n7" target="n15">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.537018780065398</data>
+    </edge>
+    <edge source="n8" target="n15">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.528116506992152</data>
+    </edge>
+    <edge source="n9" target="n13">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.525792662058333</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.517145044826293</data>
+    </edge>
+  </graph>
+</graphml>

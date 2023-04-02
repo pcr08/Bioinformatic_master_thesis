@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_display.name" for="node" attr.name="display.name" attr.type="string"/>
+  <key id="v_gene.type" for="node" attr.name="gene.type" attr.type="string"/>
+  <key id="v_expressed.in" for="node" attr.name="expressed.in" attr.type="string"/>
+  <key id="e_ligand.name" for="edge" attr.name="ligand.name" attr.type="string"/>
+  <key id="e_receptor.name" for="edge" attr.name="receptor.name" attr.type="string"/>
+  <key id="e_origin" for="edge" attr.name="origin" attr.type="string"/>
+  <key id="e_destination" for="edge" attr.name="destination" attr.type="string"/>
+  <key id="e_interaction.type" for="edge" attr.name="interaction.type" attr.type="string"/>
+  <key id="e_LRscore" for="edge" attr.name="LRscore" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">microglial cells.SPP1</data>
+      <data key="v_display.name">microglial cells.SPP1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">microglial cells.APOE</data>
+      <data key="v_display.name">microglial cells.APOE</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">microglial cells.RPS27A</data>
+      <data key="v_display.name">microglial cells.RPS27A</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">microglial cells.UBA52</data>
+      <data key="v_display.name">microglial cells.UBA52</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">microglial cells.HSP90AA1</data>
+      <data key="v_display.name">microglial cells.HSP90AA1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">microglial cells.UBC</data>
+      <data key="v_display.name">microglial cells.UBC</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">microglial cells.PSAP</data>
+      <data key="v_display.name">microglial cells.PSAP</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">microglial cells.C1QA</data>
+      <data key="v_display.name">microglial cells.C1QA</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">microglial cells.APOC1</data>
+      <data key="v_display.name">microglial cells.APOC1</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">microglial cells.CALM2</data>
+      <data key="v_display.name">microglial cells.CALM2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">microglial cells.C3</data>
+      <data key="v_display.name">microglial cells.C3</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">microglial cells.PTMA</data>
+      <data key="v_display.name">microglial cells.PTMA</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">microglial cells.UBB</data>
+      <data key="v_display.name">microglial cells.UBB</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">microglial cells.ITGB2</data>
+      <data key="v_display.name">microglial cells.ITGB2</data>
+      <data key="v_gene.type">ligand</data>
+      <data key="v_expressed.in">microglial cells</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">glioblastoma.S1PR1</data>
+      <data key="v_display.name">glioblastoma.S1PR1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">glioblastoma.LDLR</data>
+      <data key="v_display.name">glioblastoma.LDLR</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">glioblastoma.ITGB3</data>
+      <data key="v_display.name">glioblastoma.ITGB3</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">glioblastoma.ERBB2</data>
+      <data key="v_display.name">glioblastoma.ERBB2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">glioblastoma.VLDLR</data>
+      <data key="v_display.name">glioblastoma.VLDLR</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">glioblastoma.LRP5</data>
+      <data key="v_display.name">glioblastoma.LRP5</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">glioblastoma.LRP8</data>
+      <data key="v_display.name">glioblastoma.LRP8</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">glioblastoma.GPR37</data>
+      <data key="v_display.name">glioblastoma.GPR37</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">glioblastoma.CSPG4</data>
+      <data key="v_display.name">glioblastoma.CSPG4</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">glioblastoma.GPR37L1</data>
+      <data key="v_display.name">glioblastoma.GPR37L1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">glioblastoma.LRP2</data>
+      <data key="v_display.name">glioblastoma.LRP2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">glioblastoma.BMPR1B</data>
+      <data key="v_display.name">glioblastoma.BMPR1B</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">glioblastoma.FGFR2</data>
+      <data key="v_display.name">glioblastoma.FGFR2</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">glioblastoma.ADCY8</data>
+      <data key="v_display.name">glioblastoma.ADCY8</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">glioblastoma.FGFR3</data>
+      <data key="v_display.name">glioblastoma.FGFR3</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">glioblastoma.GRM7</data>
+      <data key="v_display.name">glioblastoma.GRM7</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">glioblastoma.VIPR1</data>
+      <data key="v_display.name">glioblastoma.VIPR1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">glioblastoma.GRM5</data>
+      <data key="v_display.name">glioblastoma.GRM5</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">glioblastoma.CACNA1C</data>
+      <data key="v_display.name">glioblastoma.CACNA1C</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">glioblastoma.CELSR1</data>
+      <data key="v_display.name">glioblastoma.CELSR1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">glioblastoma.THY1</data>
+      <data key="v_display.name">glioblastoma.THY1</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">glioblastoma.PDE1C</data>
+      <data key="v_display.name">glioblastoma.PDE1C</data>
+      <data key="v_gene.type">receptor</data>
+      <data key="v_expressed.in">glioblastoma</data>
+    </node>
+    <edge source="n0" target="n14">
+      <data key="e_ligand.name">SPP1</data>
+      <data key="e_receptor.name">S1PR1</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.658796881589736</data>
+    </edge>
+    <edge source="n1" target="n15">
+      <data key="e_ligand.name">APOE</data>
+      <data key="e_receptor.name">LDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.619472559228685</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="e_ligand.name">SPP1</data>
+      <data key="e_receptor.name">ITGB3</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.602859998016638</data>
+    </edge>
+    <edge source="n2" target="n17">
+      <data key="e_ligand.name">RPS27A</data>
+      <data key="e_receptor.name">ERBB2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.596712857950262</data>
+    </edge>
+    <edge source="n1" target="n18">
+      <data key="e_ligand.name">APOE</data>
+      <data key="e_receptor.name">VLDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.581680323161525</data>
+    </edge>
+    <edge source="n2" target="n15">
+      <data key="e_ligand.name">RPS27A</data>
+      <data key="e_receptor.name">LDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.580150990922214</data>
+    </edge>
+    <edge source="n1" target="n19">
+      <data key="e_ligand.name">APOE</data>
+      <data key="e_receptor.name">LRP5</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.578412468547029</data>
+    </edge>
+    <edge source="n3" target="n17">
+      <data key="e_ligand.name">UBA52</data>
+      <data key="e_receptor.name">ERBB2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.572930122717439</data>
+    </edge>
+    <edge source="n4" target="n17">
+      <data key="e_ligand.name">HSP90AA1</data>
+      <data key="e_receptor.name">ERBB2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.570062590292975</data>
+    </edge>
+    <edge source="n5" target="n17">
+      <data key="e_ligand.name">UBC</data>
+      <data key="e_receptor.name">ERBB2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.56580914808022</data>
+    </edge>
+    <edge source="n1" target="n20">
+      <data key="e_ligand.name">APOE</data>
+      <data key="e_receptor.name">LRP8</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.563008905647258</data>
+    </edge>
+    <edge source="n6" target="n21">
+      <data key="e_ligand.name">PSAP</data>
+      <data key="e_receptor.name">GPR37</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.556318551470278</data>
+    </edge>
+    <edge source="n7" target="n22">
+      <data key="e_ligand.name">C1QA</data>
+      <data key="e_receptor.name">CSPG4</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.556274898741907</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="e_ligand.name">UBA52</data>
+      <data key="e_receptor.name">LDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.556118104443299</data>
+    </edge>
+    <edge source="n6" target="n23">
+      <data key="e_ligand.name">PSAP</data>
+      <data key="e_receptor.name">GPR37L1</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.553072352214853</data>
+    </edge>
+    <edge source="n1" target="n24">
+      <data key="e_ligand.name">APOE</data>
+      <data key="e_receptor.name">LRP2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.550222591810509</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_ligand.name">UBC</data>
+      <data key="e_receptor.name">LDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.548937502245412</data>
+    </edge>
+    <edge source="n3" target="n25">
+      <data key="e_ligand.name">UBA52</data>
+      <data key="e_receptor.name">BMPR1B</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.547495678404393</data>
+    </edge>
+    <edge source="n8" target="n18">
+      <data key="e_ligand.name">APOC1</data>
+      <data key="e_receptor.name">VLDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.545374547150557</data>
+    </edge>
+    <edge source="n2" target="n26">
+      <data key="e_ligand.name">RPS27A</data>
+      <data key="e_receptor.name">FGFR2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.543130580666425</data>
+    </edge>
+    <edge source="n9" target="n27">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">ADCY8</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.539516783467206</data>
+    </edge>
+    <edge source="n4" target="n28">
+      <data key="e_ligand.name">HSP90AA1</data>
+      <data key="e_receptor.name">FGFR3</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.536539562750218</data>
+    </edge>
+    <edge source="n10" target="n29">
+      <data key="e_ligand.name">C3</data>
+      <data key="e_receptor.name">GRM7</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.536061683835777</data>
+    </edge>
+    <edge source="n11" target="n30">
+      <data key="e_ligand.name">PTMA</data>
+      <data key="e_receptor.name">VIPR1</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.535826658247385</data>
+    </edge>
+    <edge source="n9" target="n29">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">GRM7</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.534877205099476</data>
+    </edge>
+    <edge source="n9" target="n31">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">GRM5</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.529621970792709</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="e_ligand.name">UBB</data>
+      <data key="e_receptor.name">ERBB2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.527997322284319</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="e_ligand.name">HSP90AA1</data>
+      <data key="e_receptor.name">ITGB3</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.527582935345779</data>
+    </edge>
+    <edge source="n9" target="n32">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">CACNA1C</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.525192304636646</data>
+    </edge>
+    <edge source="n6" target="n33">
+      <data key="e_ligand.name">PSAP</data>
+      <data key="e_receptor.name">CELSR1</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.524437837111995</data>
+    </edge>
+    <edge source="n13" target="n34">
+      <data key="e_ligand.name">ITGB2</data>
+      <data key="e_receptor.name">THY1</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.521251374383556</data>
+    </edge>
+    <edge source="n3" target="n26">
+      <data key="e_ligand.name">UBA52</data>
+      <data key="e_receptor.name">FGFR2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.518736488733278</data>
+    </edge>
+    <edge source="n5" target="n26">
+      <data key="e_ligand.name">UBC</data>
+      <data key="e_receptor.name">FGFR2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.511482378592433</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="e_ligand.name">UBB</data>
+      <data key="e_receptor.name">LDLR</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.510926411401274</data>
+    </edge>
+    <edge source="n2" target="n24">
+      <data key="e_ligand.name">RPS27A</data>
+      <data key="e_receptor.name">LRP2</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.509412197630842</data>
+    </edge>
+    <edge source="n9" target="n35">
+      <data key="e_ligand.name">CALM2</data>
+      <data key="e_receptor.name">PDE1C</data>
+      <data key="e_origin">microglial cells</data>
+      <data key="e_destination">glioblastoma</data>
+      <data key="e_interaction.type">paracrine</data>
+      <data key="e_LRscore">0.503253038442191</data>
+    </edge>
+  </graph>
+</graphml>

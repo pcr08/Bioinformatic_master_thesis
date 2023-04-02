@@ -1,0 +1,4 @@
+endothelial.cells	glioblastoma	interaction.type	LRscore
+CALM1	AQP6	paracrine	0.517942871938958
+RTN4	RTN4R	paracrine	0.51689489657287
+CALM1	GRM7	paracrine	0.513921503897119

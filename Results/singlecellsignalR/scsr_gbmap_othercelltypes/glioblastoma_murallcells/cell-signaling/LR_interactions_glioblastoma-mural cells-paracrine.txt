@@ -1,0 +1,4 @@
+glioblastoma	mural.cells	interaction.type	LRscore
+PTMA	VIPR1	paracrine	0.59349273397163
+CALM1	VIPR1	paracrine	0.563264258288906
+GNAS	VIPR1	paracrine	0.554774583766323
