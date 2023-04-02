@@ -1,0 +1,5 @@
+SOURCE	TARGET	count
+Neoplastic	Neoplastic	94
+Neoplastic	microglial_cell	120
+microglial_cell	Neoplastic	120
+microglial_cell	microglial_cell	70

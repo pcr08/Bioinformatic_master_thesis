@@ -1,0 +1,7 @@
+	all_sum
+AC-like	830
+MES-like	689
+OPC-like	767
+NPC-like	700
+microglial_cell	629
+macrophage	743

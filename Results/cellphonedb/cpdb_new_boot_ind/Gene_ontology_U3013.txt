@@ -1,0 +1,102 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.6799722 Released 2022-07-01
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20589)	upload_1 (8)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+cellular response to interleukin-12 (GO:0071349)	6	3	.00	+	 > 100	3.23E-09	5.06E-05
+response to interleukin-12 (GO:0070671)	7	3	.00	+	 > 100	4.61E-09	3.61E-05
+positive regulation by symbiont of entry into host (GO:0075294)	15	3	.01	+	 > 100	3.13E-08	1.64E-04
+positive regulation of viral entry into host cell (GO:0046598)	15	3	.01	+	 > 100	3.13E-08	1.23E-04
+positive regulation of viral life cycle (GO:1903902)	25	3	.01	+	 > 100	1.25E-07	2.46E-04
+negative regulation of phagocytosis (GO:0050765)	22	2	.01	+	 > 100	3.63E-05	1.12E-02
+negative regulation of chemokine production (GO:0032682)	24	2	.01	+	 > 100	4.27E-05	1.24E-02
+regulation of viral entry into host cell (GO:0046596)	48	3	.02	+	 > 100	7.94E-07	8.89E-04
+heterotypic cell-cell adhesion (GO:0034113)	36	2	.01	+	 > 100	9.22E-05	2.22E-02
+modulation by symbiont of entry into host (GO:0052372)	55	3	.02	+	 > 100	1.17E-06	1.23E-03
+regulation of biological process involved in symbiotic interaction (GO:0043903)	63	3	.02	+	 > 100	1.74E-06	1.52E-03
+positive regulation of interleukin-8 production (GO:0032757)	65	3	.03	+	 > 100	1.90E-06	1.57E-03
+positive regulation of viral process (GO:0048524)	65	3	.03	+	 > 100	1.90E-06	1.49E-03
+positive regulation of extrinsic apoptotic signaling pathway (GO:2001238)	50	2	.02	+	 > 100	1.73E-04	3.58E-02
+positive regulation of cytokine-mediated signaling pathway (GO:0001961)	57	2	.02	+	90.30	2.23E-04	4.38E-02
+regulation of interleukin-8 production (GO:0032677)	86	3	.03	+	89.78	4.30E-06	2.59E-03
+positive regulation of myeloid leukocyte differentiation (GO:0002763)	58	2	.02	+	88.75	2.31E-04	4.47E-02
+regulation of nitric oxide biosynthetic process (GO:0045428)	59	2	.02	+	87.24	2.39E-04	4.57E-02
+regulation of interleukin-10 production (GO:0032653)	60	2	.02	+	85.79	2.47E-04	4.66E-02
+negative regulation of tumor necrosis factor production (GO:0032720)	61	2	.02	+	84.38	2.55E-04	4.76E-02
+regulation of interleukin-12 production (GO:0032655)	63	2	.02	+	81.70	2.71E-04	4.95E-02
+regulation of lymphocyte apoptotic process (GO:0070228)	63	2	.02	+	81.70	2.71E-04	4.89E-02
+negative regulation of tumor necrosis factor superfamily cytokine production (GO:1903556)	63	2	.02	+	81.70	2.71E-04	4.83E-02
+regulation of chemokine production (GO:0032642)	95	3	.04	+	81.27	5.75E-06	3.22E-03
+positive regulation of response to cytokine stimulus (GO:0060760)	64	2	.02	+	80.43	2.80E-04	4.93E-02
+regulation of nitric oxide metabolic process (GO:0080164)	64	2	.02	+	80.43	2.80E-04	4.87E-02
+response to interferon-gamma (GO:0034341)	130	4	.05	+	79.19	1.17E-07	2.63E-04
+cellular response to interferon-gamma (GO:0071346)	107	3	.04	+	72.16	8.14E-06	3.99E-03
+regulation of interleukin-6 production (GO:0032675)	152	4	.06	+	67.73	2.16E-07	3.77E-04
+regulation of interferon-gamma production (GO:0032649)	119	3	.05	+	64.88	1.11E-05	4.98E-03
+regulation of tumor necrosis factor production (GO:0032680)	163	4	.06	+	63.16	2.85E-07	4.46E-04
+regulation of tumor necrosis factor superfamily cytokine production (GO:1903555)	168	4	.07	+	61.28	3.20E-07	4.57E-04
+response to interleukin-1 (GO:0070555)	126	3	.05	+	61.28	1.31E-05	5.28E-03
+regulation of viral life cycle (GO:1903900)	142	3	.06	+	54.37	1.86E-05	6.80E-03
+positive regulation of I-kappaB kinase/NF-kappaB signaling (GO:0043123)	190	4	.07	+	54.18	5.19E-07	6.26E-04
+positive regulation of leukocyte migration (GO:0002687)	152	3	.06	+	50.80	2.28E-05	7.29E-03
+regulation of viral process (GO:0050792)	164	3	.06	+	47.08	2.85E-05	8.92E-03
+positive regulation of leukocyte differentiation (GO:1902107)	183	3	.07	+	42.19	3.92E-05	1.18E-02
+positive regulation of hemopoiesis (GO:1903708)	183	3	.07	+	42.19	3.92E-05	1.16E-02
+regulation of I-kappaB kinase/NF-kappaB signaling (GO:0043122)	252	4	.10	+	40.85	1.57E-06	1.54E-03
+positive regulation of T cell activation (GO:0050870)	253	4	.10	+	40.69	1.59E-06	1.47E-03
+positive regulation of leukocyte cell-cell adhesion (GO:1903039)	276	4	.11	+	37.30	2.24E-06	1.60E-03
+regulation of leukocyte migration (GO:0002685)	232	3	.09	+	33.28	7.87E-05	2.02E-02
+positive regulation of cell-cell adhesion (GO:0022409)	324	4	.13	+	31.77	4.20E-06	2.75E-03
+regulation of apoptotic signaling pathway (GO:2001233)	364	4	.14	+	28.28	6.63E-06	3.59E-03
+regulation of leukocyte cell-cell adhesion (GO:1903037)	369	4	.14	+	27.90	6.99E-06	3.66E-03
+regulation of T cell activation (GO:0050863)	377	4	.15	+	27.31	7.61E-06	3.85E-03
+positive regulation of cell adhesion (GO:0045785)	488	5	.19	+	26.37	4.06E-07	5.31E-04
+regulation of ERK1 and ERK2 cascade (GO:0070372)	303	3	.12	+	25.48	1.72E-04	3.60E-02
+positive regulation of lymphocyte activation (GO:0051251)	421	4	.16	+	24.45	1.17E-05	4.97E-03
+regulation of leukocyte differentiation (GO:1902105)	316	3	.12	+	24.43	1.95E-04	3.96E-02
+negative regulation of transport (GO:0051051)	435	4	.17	+	23.67	1.33E-05	5.22E-03
+positive regulation of response to external stimulus (GO:0032103)	455	4	.18	+	22.63	1.59E-05	6.07E-03
+positive regulation of leukocyte activation (GO:0002696)	469	4	.18	+	21.95	1.79E-05	6.67E-03
+cellular response to cytokine stimulus (GO:0071345)	714	6	.28	+	21.63	4.71E-08	1.48E-04
+regulation of cell-cell adhesion (GO:0022407)	484	4	.19	+	21.27	2.02E-05	7.20E-03
+positive regulation of cell activation (GO:0050867)	486	4	.19	+	21.18	2.05E-05	7.15E-03
+response to cytokine (GO:0034097)	808	6	.31	+	19.11	9.79E-08	2.56E-04
+regulation of lymphocyte activation (GO:0051249)	591	4	.23	+	17.42	4.40E-05	1.25E-02
+regulation of cytokine production (GO:0001817)	742	5	.29	+	17.34	3.17E-06	2.16E-03
+regulation of cell adhesion (GO:0030155)	789	5	.31	+	16.31	4.27E-06	2.68E-03
+regulation of defense response (GO:0031347)	642	4	.25	+	16.04	6.07E-05	1.70E-02
+regulation of MAPK cascade (GO:0043408)	672	4	.26	+	15.32	7.25E-05	1.99E-02
+regulation of leukocyte activation (GO:0002694)	684	4	.27	+	15.05	7.76E-05	2.03E-02
+regulation of cellular response to stress (GO:0080135)	709	4	.28	+	14.52	8.92E-05	2.22E-02
+regulation of cell activation (GO:0050865)	741	4	.29	+	13.89	1.06E-04	2.40E-02
+positive regulation of immune system process (GO:0002684)	967	5	.38	+	13.31	1.15E-05	5.02E-03
+regulation of response to external stimulus (GO:0032101)	973	5	.38	+	13.23	1.19E-05	4.90E-03
+innate immune response (GO:0045087)	832	4	.32	+	12.37	1.65E-04	3.51E-02
+positive regulation of cell differentiation (GO:0045597)	884	4	.34	+	11.65	2.09E-04	4.20E-02
+regulation of response to stress (GO:0080134)	1373	6	.53	+	11.25	2.22E-06	1.66E-03
+regulation of intracellular signal transduction (GO:1902531)	1721	6	.67	+	8.97	8.32E-06	3.95E-03
+regulation of apoptotic process (GO:0042981)	1468	5	.57	+	8.77	8.67E-05	2.19E-02
+defense response (GO:0006952)	1478	5	.57	+	8.71	8.95E-05	2.19E-02
+regulation of programmed cell death (GO:0043067)	1498	5	.58	+	8.59	9.55E-05	2.23E-02
+regulation of immune system process (GO:0002682)	1520	5	.59	+	8.47	1.02E-04	2.36E-02
+negative regulation of response to stimulus (GO:0048585)	1620	5	.63	+	7.94	1.39E-04	3.07E-02
+immune response (GO:0006955)	1621	5	.63	+	7.94	1.39E-04	3.03E-02
+regulation of cell death (GO:0010941)	1654	5	.64	+	7.78	1.53E-04	3.30E-02
+cellular response to organic substance (GO:0071310)	2026	6	.79	+	7.62	2.15E-05	7.33E-03
+regulation of transport (GO:0051049)	1766	5	.69	+	7.29	2.10E-04	4.16E-02
+response to organic substance (GO:0010033)	2704	7	1.05	+	6.66	4.81E-06	2.80E-03
+regulation of signal transduction (GO:0009966)	2989	7	1.16	+	6.03	9.56E-06	4.41E-03
+cellular response to chemical stimulus (GO:0070887)	2616	6	1.02	+	5.90	9.42E-05	2.24E-02
+regulation of cell communication (GO:0010646)	3369	7	1.31	+	5.35	2.17E-05	7.23E-03
+regulation of signaling (GO:0023051)	3381	7	1.31	+	5.33	2.22E-05	7.25E-03
+regulation of response to stimulus (GO:0048583)	4034	7	1.57	+	4.47	7.39E-05	2.00E-02
+response to chemical (GO:0042221)	4060	7	1.58	+	4.44	7.71E-05	2.05E-02
+signal transduction (GO:0007165)	4887	7	1.90	+	3.69	2.70E-04	4.98E-02
+cellular response to stimulus (GO:0051716)	6569	8	2.55	+	3.13	1.08E-04	2.41E-02

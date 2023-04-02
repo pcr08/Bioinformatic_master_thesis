@@ -1,0 +1,3 @@
+	all_sum
+microglial_cell	184
+neoplastic	91

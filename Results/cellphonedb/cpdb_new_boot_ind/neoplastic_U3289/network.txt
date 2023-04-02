@@ -1,0 +1,5 @@
+SOURCE	TARGET	count
+microglial_cell	microglial_cell	93
+microglial_cell	neoplastic	91
+neoplastic	microglial_cell	91
+neoplastic	neoplastic	0

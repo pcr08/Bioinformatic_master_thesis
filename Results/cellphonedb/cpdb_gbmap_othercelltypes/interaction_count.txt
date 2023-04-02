@@ -1,0 +1,12 @@
+	all_sum
+malignant_cell	1010
+mast_cell	518
+endothelial_cell	954
+astrocyte	853
+oligodendrocyte	738
+dendritic_cell	947
+neuron	718
+monocyte	1109
+natural_killer_cell	766
+radial_glial_cell	95
+mural_cell	1079
