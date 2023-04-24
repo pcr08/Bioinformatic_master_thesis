@@ -1,0 +1,13 @@
+id_cp_interaction	interacting_pair	partner_a	partner_b	gene_a	gene_b	secreted	receptor_a	receptor_b	annotation_strategy	is_integrin	rank	mural_cells|mural_cells	mural_cells|neoplastic	neoplastic|mural_cells	neoplastic|neoplastic
+CPI-SC037A0554C	COL5A2_integrin_a1b1_complex	simple:P05997	complex:integrin_a1b1_complex	ENSG00000204262		True	False	False	curated	True	0.25	1.104			
+CPI-SS0ABC5C1B8	CD74_MIF	simple:P04233	simple:P14174	ENSG00000019582	ENSG00000240972	True	True	False	I2D,InnateDB-All	False	0.25	0.885			
+CPI-SC08DBCCFF0	COL1A1_integrin_a1b1_complex	simple:P02452	complex:integrin_a1b1_complex	ENSG00000108821		True	False	False	curated	True	0.5	1.29	0.798		
+CPI-SC00367777A	COL3A1_integrin_a1b1_complex	simple:P02461	complex:integrin_a1b1_complex	ENSG00000168542		True	False	False	curated	True	0.5	1.384	0.892		
+CPI-SC0744E13CB	COL4A1_integrin_a1b1_complex	simple:P02462	complex:integrin_a1b1_complex	ENSG00000187498		True	False	False	curated	True	0.5	1.75	1.258		
+CPI-SC09DB9D20A	COL1A2_integrin_a1b1_complex	simple:P08123	complex:integrin_a1b1_complex	ENSG00000164692		True	False	False	curated	True	0.5	1.584	1.092		
+CPI-SC03F728659	COL4A2_integrin_a1b1_complex	simple:P08572	complex:integrin_a1b1_complex	ENSG00000134871		True	False	False	curated	True	0.5	1.529	1.037		
+CPI-SC0549A759B	COL6A1_integrin_a1b1_complex	simple:P12109	complex:integrin_a1b1_complex	ENSG00000142156		True	False	False	curated	True	0.5	1.204	0.712		
+CPI-SC0F9FB6DCB	COL6A2_integrin_a1b1_complex	simple:P12110	complex:integrin_a1b1_complex	ENSG00000142173		True	False	False	curated	True	0.5	1.033		0.592	
+CPI-SC0C739EDCE	COL18A1_integrin_a1b1_complex	simple:P39060	complex:integrin_a1b1_complex	ENSG00000182871		True	False	False	curated	True	0.5	1.052		0.591	
+CPI-SS09808DEAE	CD74_APP	simple:P04233	simple:P05067	ENSG00000019582	ENSG00000142192	False	True	False	curated	False	0.5	1.099		0.68	
+CPI-SS02DA892C8	BSG_PPIA	simple:P35613	simple:P62937	ENSG00000172270	ENSG00000196262	True	False	False	curated	False	0.5	1.469		1.091	
